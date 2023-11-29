@@ -1,0 +1,177 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+</style>
+
+nav{
+  list-style-type:none;
+  background-color: blue;
+  border-bottom: 5px #03a9f4;
+  border-top: black;
+  padding: 5px;
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+  display: block;
+  background-image: url(images/spaceship.jpg);
+}
+
+
+h2{
+  padding-top: 20px;
+}
+
+#home-hero{
+    background-image: url(images/home-hero.jpg);
+    height: 200px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon {
+  font-size: 20px;
+}
+
+
+
+.sideImage {
+  padding-top: 20px;
+}
+
+.sides{
+  border: 1px solid #000;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.video-container{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+header{
+background-color: #212121;
+text-align: center;
+}
+
+a:link{
+  color: black;
+
+}
+a:visited{
+  color: #000000;
+
+}
+
+a:hover{
+  color: blue;
+}
+
+a:active{
+  color: black;
+}
+
+nav{
+  background-color: #57a4f0;
+  padding: 15px 0;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  
+}
+
+nav li{
+  display: inline;
+
+
+
+}
+nav a { 
+  text-decoration:none;
+  padding-right: 10px;
+}
+nav a:link{
+  color:white;
+}
+nav a:visited{
+  color:black;
+  
+}
+
+nav a:hover {
+  color:blue;
+}
+
+nav a:active {
+  color:blue;
+}
+
+body{font-family: 'Edu TAS Beginner', cursive;
+margin: 0;
+}
+
+footer{
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px;
+  background: rgb(87,164,240);
+  background: linear-gradient(90deg, rgba(87,164,240,1) 0%, rgba(213,230,248,1) 50%, rgba(33,33,33,1) 100%);
+}
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+    text-align: left;
+    padding-top: 5px;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
